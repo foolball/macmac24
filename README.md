@@ -1,5 +1,9 @@
 My main website
 =======
+3/17/2014
+- added canvas line example to main page. Link is on the first slider. Also added a back button on the canvas line
+page.
+
 3/13/2014
 This is my first attempt to create a personal website. My goal is to incorporate various features and code that I learned
 along the way.
@@ -16,4 +20,4 @@ JS
 3. jQuery.js: version 1.10.2 
 4. lightbox2.js: overlay images on top of current page
 5. prefixfree.js: automatically creates the required prefixes and let's us write the unprefixed CSS properties.
-6. Slides.js: a responsive slideshow plug-in for jQuery (1.7.1) with features like touch and CSS3 transitions.
+6. jquery.slides.min.js: a responsive slideshow plug-in for jQuery (1.7.1) with features like touch and CSS3 transitions.

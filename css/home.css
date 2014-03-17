@@ -169,6 +169,7 @@ font-size:18px;}
 
 #spacer p
 {
+        display: none; /* turn this on when we have a search function */
 margin-top:22px;
 width:auto;
 position:absolute;
@@ -177,6 +178,7 @@ margin-left:-450px;}
 
 #spacer .search
 {
+        display: none; /* turn this on when we have a search function */
 margin-top:15px;
 width:auto;
 position:absolute;
@@ -218,60 +220,6 @@ font-family: 'Open Sans', sans-serif;
 margin-left:75px;}
 
 
-
-#four_columns, #text_columns
-{
-line-height:25px;
-font-family: 'Open Sans', sans-serif;
-clear:both;
-width:auto;
-max-width:900px;
-margin:0 auto;}
-
-#four_columns h2, #text_columns h3
-{
-font-size:20px;
-border-bottom: 1px solid #D6D0C1;
-padding: 20px 0;
-margin-bottom: 20px;}
-
-#four_columns .img-item
-{
-float:left;
-margin-right:25px;}
-
-#four_columns .img-item a
-{
-position:relative;
-display:block;}
-
-.thumb-screen
-{
-display:block;
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:113px;
-background: #000 url("http://www.lingulo.com/tutorial-content/html5/img/zoom.png") center center no-repeat;
-z-index:99;
-opacity: 0;
-transition: opacity .5s ease;}
-
-.thumb-screen:hover
-{
-opacity:0.5;}
-
-#text_columns article.column1, #text_columns .column2
-{
-margin: 70px 0;
-font-size:14px;
-float:left;
-width:450px;}
-
-#text_columns .column2
-{
-margin: 120px 0;}
 
 .row
 {
@@ -419,24 +367,6 @@ color: #5e5e5e;
 font-size:14px;
 position:relative;}
 
-
-#copyright .wrapper .social
-{
-position:absolute;
-right:0;
-top:25px;}
-
-#copyright .wrapper .social a
-{
-transition: opacity .25s ease;
-opacity: 0.3;
-margin-left: 12px;
-display:block;
-float:left;}
-
-#copyright .wrapper .social a:hover
-{
-opacity: 0.7;}
 
 #copyright .wrapper a
 {
