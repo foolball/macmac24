@@ -1,4 +1,5 @@
-﻿$(function () {
+﻿/* slider effect */
+$(function () {
     $('#slides').slidesjs({
         height: 235,
         navigation: false,
@@ -24,3 +25,5 @@
         }
     });
 });
+/* end of slider effect */
+
