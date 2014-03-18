@@ -1,5 +1,9 @@
 My main website
 =======
+3/18/2013
+- added blur effect example to a section of the main page.
+- added parallax slider page. linked the page from slider #2 on the main page.
+
 3/17/2014
 - added canvas line example to main page. Link is on the first slider. Also added a back button on the canvas line
 page.

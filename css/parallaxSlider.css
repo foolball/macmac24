@@ -1,0 +1,112 @@
+﻿.pxs_container{
+    width:100%;
+    height:420px;
+    position:relative;
+    border-top:7px solid #333;
+    border-bottom:7px solid #333;
+    overflow:hidden;
+    box-shadow:0px 0px 7px #000;
+}
+
+.pxs_bg{background:transparent url(../img/parallaxSlider/bg.png) repeat top left;}
+
+.pxs_bg div{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:420px;
+    background-repeat:repeat;
+    background-position:top left;
+    background-color:transparent;
+}
+
+.pxs_bg .pxs_bg1{background-image:url(../img/parallaxSlider/bg1.png);}
+.pxs_bg .pxs_bg2{background-image:url(../img/parallaxSlider/bg2.png);}
+.pxs_bg .pxs_bg3{background-image:url(../img/parallaxSlider/bg3.png);}
+
+.pxs_slider_wrapper{display:none;}
+
+.pxs_container ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+ul.pxs_slider{
+    position:absolute;
+    left:0px;
+    top:0px;
+    height:420px;
+}
+
+ul.pxs_slider li{
+    height:420px;
+    float:left;
+    position:relative;
+}
+
+/* Adding a transparent border and a box shadow will create a glass like effect around the image. */
+ul.pxs_slider li img{
+    display:block;
+    margin:35px auto 0px auto;
+    box-shadow:0px 0px 7px #222;
+    border: 8px solid transparent;
+    border-radius:4px;
+}
+
+/* The thumbnails list will be positioned absolutely, too.
+We add a left of 50% because we want to center it, by dynamically
+setting its width and a negative left margin in the JavaScript */
+ul.pxs_thumbnails{
+    height:35px;
+    position:absolute;
+    top:320px;
+    left:50%;
+}
+
+ul.pxs_thumbnails li{
+    position:absolute;
+    display:block;
+}
+
+ul.pxs_thumbnails li img{
+    border: 5px solid #FFFFFF;
+    box-shadow:1px 1px 7px #555;
+    cursor:pointer;
+    display:block;
+    opacity:0.7;
+}
+
+ul.pxs_thumbnails li.selected img{opacity:1.0;}
+
+.pxs_navigation span{
+    position:absolute;
+    width:30px;
+    height:60px;
+    box-shadow:0px 0px 2px #000;
+    top:145px;
+    opacity:0.6;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.pxs_navigation span:hover{opacity:0.9;}
+
+.pxs_navigation span.pxs_prev{background:#000 url(../img/parallaxSlider/prev.png) no-repeat center center;}
+.pxs_navigation span.pxs_next{background:#000 url(../img/parallaxSlider/next.png) no-repeat center center;}
+
+/* loading element */
+.pxs_loading{
+    color:#fff;
+    font-size:20px;
+    padding:15px 15px 15px 50px;
+    position:absolute;
+    background:#333 url(../img/parallaxSlider/ajax-loader.gif) no-repeat 10px 50%;
+    border-radius:15px;
+    opacity:0.7;
+    width:180px;
+    position:absolute;
+    top:150px;
+    left:50%;
+    margin-left:-90px;
+}

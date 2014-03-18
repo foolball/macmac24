@@ -11,7 +11,7 @@ $(function () {
         },
         callback: {
             start: function (number) {
-                $("#slider_content1,#slider_content2,#slider_content3").fadeOut(500);
+                $("#slider_content1,#slider_content2").fadeOut(500);
             },
             complete: function (number) {
                 $("#slider_content" + number).delay(500).fadeIn(1000);
@@ -19,7 +19,7 @@ $(function () {
         },
         play: {
             active: false,
-            auto: false,
+            auto: true,
             interval: 6000,
             pauseOnHover: false
         }
