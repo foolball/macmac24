@@ -1,5 +1,11 @@
 My main website
 =======
+3/25/2014
+- added an about us page. This page was created during a take home test used during an interview by Zerf.
+
+3/19/2013
+- added "home" button to the parallax slider page.
+
 3/18/2013
 - added blur effect example to a section of the main page.
 - added parallax slider page. linked the page from slider #2 on the main page.

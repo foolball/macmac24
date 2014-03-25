@@ -287,3 +287,6 @@ $(function () {
     var $pxs_container = $('#pxs_container');
     $pxs_container.parallaxSlider();
 });
+
+// on mouse click, go back to home page
+$('#home').on('click', function () { window.location = 'index.cshtml' });

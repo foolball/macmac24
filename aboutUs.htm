@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Zerf About Us</title>
+    <meta name="description" content="" />
+    <!-- For responsive designs, need to add viewport meta tag. It defines how the website should be displayed on a device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+    <!-- created by Eric Meyer. Resets the styling of all HTML elements-->
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+    <!-- a feature detection library for HTML5 and CSS3. It let´s you easily detect whether a browser supports a specific feature or not -->
+    <script src="js/modernizr-2.6.2.min.js" type="text/javascript"></script>
+    <!-- a script which enables responsive design in Internet Explorer and other browsers which don´t support CSS Media Queries -->
+    <script src="js/respond.js" type="text/javascript"></script>
+    <!-- include external jQuery file but fall back to local file if external one fails to load -->
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">        window.jQuery || document.write('<script type="text\/javascript" src="js\/jquery-1.10.2.min.js"><\/script>')</script>
+    <!-- automatically creates the required prefixes and let´s us write the unprefixed CSS properties -->
+    <script src="js/prefixfree.min.js" type="text/javascript"></script>
+    <style type="text/css">
+/* header */
+header
+{
+    position:relative;
+    width:auto;
+    max-width:900px;
+    margin: 0 auto 20px auto;
+}
+header h1
+{
+    margin: 35px 0 0 0;
+    font-size: 55px;
+    color: #e56038;
+    font-family: 'Baumans', cursive;
+}
+
+
+header p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #4A463B;
+    margin-left:132px;
+}
+
+/* end of header */
+
+.main-container {
+    width:890px;
+    height:250px;
+    margin: 0 auto;
+    position:relative;
+    overflow:hidden;
+
+   }
+
+.pane-container-transition {transition: left 1500ms ease-in-out;}
+
+.pane-container {
+    width:1200px;
+    height:250px;
+    margin: 0 auto;
+    left:-298px;
+    position:absolute;
+   }
+
+.pane-container article{
+    width: 230px;
+    height: 150px;
+    background: #fff;
+    float: left;
+    border: 10px solid #fff;
+    text-align: left;
+    text-transform: none;
+    margin: 25px;
+    z-index: 1;
+    box-shadow: 
+        0px 0px 0px 10px rgba(255,255,255,1), 
+        1px 1px 3px 10px rgba(0,0,0,0.2);
+}
+
+.pane-container article img {float:left;padding-right:5px;}
+
+/* styling text elements */
+.pane-container h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+    opacity: 0.8;
+}
+.pane-container article header span{
+    font-size: 10px;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    padding: 10px 0;
+    display: block;
+    color: rgba(255, 210, 82, 1);
+    text-shadow: 0px 0px 0px rgba(255, 210, 82, 1);
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.pane-container article p{
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    line-height: 13px;
+    color: rgba(51, 51, 51, 1);
+    text-shadow: 0px 0px 0px rgba(51, 51, 51, 1);
+    opacity: 0.8;
+}
+.thumb-container article {
+    margin-left: 210px;
+}
+.thumb {
+    cursor:pointer;
+}
+
+
+/* clear floats */
+.clear {clear:both;}
+        </style>
+</head>
+<body>
+    <header>
+        <h1>
+            ABOUT US</h1>
+        <p>
+            Our awesome employees</p>
+    </header>
+    <div class="main-container">
+        <div id="pane-container" class="pane-container pane-container-transition">
+            <article id="pane0">
+                <img src="img/AboutUs/1.jpg" alt="" />
+                <header>
+                    <h3>
+                        Employee 1</h3>
+                    <span>Employee 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                </header>
+            </article>
+            <article id="pane1">
+                <img src="img/AboutUs/1.jpg" alt="" />
+                <header>
+                    <h3>
+                        Employee 1</h3>
+                    <span>Employee 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                </header>
+            </article>
+            <article id="pane2">
+                <img src="img/AboutUs/2.jpg" alt="" />
+                <header>
+                    <h3>
+                        Employee 2</h3>
+                    <span>Employee 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                </header>
+            </article>
+            <article id="pane3">
+                <img src="img/AboutUs/3.jpg" alt="" />
+                <header>
+                    <h3>
+                        Employee 3</h3>
+                    <span>Employee 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                </header>
+            </article>
+        </div>
+    </div>
+    <br class="clear" />
+    <section class="thumb-container" style="">
+        <article>
+            <img src="img/AboutUs/thumbs/1.jpg" class="thumb" alt="employee1" data-imagesrc="img/AboutUs/1.jpg"
+                data-name="Employee 1" data-description="Employee 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec viverra purus." />
+            <img src="img/AboutUs/thumbs/2.jpg" class="thumb" alt="employee2" data-imagesrc="img/AboutUs/2.jpg"
+                data-name="Employee 2" data-description="Employee 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec viverra purus." />
+            <img src="img/AboutUs/thumbs/3.jpg" class="thumb" alt="employee3" data-imagesrc="img/AboutUs/3.jpg"
+                data-name="Employee 3" data-description="Employee 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec viverra purus." />
+            <img src="img/AboutUs/thumbs/4.jpg" class="thumb" alt="employee4" data-imagesrc="img/AboutUs/4.jpg"
+                data-name="Employee 4" data-description="Employee 4Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec viverra purus." />
+        </article>
+    </section>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(".thumb").click(function () {
+
+                // check to see if transition class exists. If not, lets add to the pane-container
+                if (!$('#pane-container').hasClass('pane-container-transition')) {
+                    $('#pane-container').addClass('pane-container-transition');
+                }
+
+                // Each thumbnail image has a set of data-* attributes for large image src, name and description
+                //by using the data-* attributes, we can set the contents of pane 1 
+                // each time a user clicks a thumbnail.
+                var imageSrc = $(this).attr("data-imageSrc");
+                var name = $(this).attr("data-name");
+                var description = $(this).attr("data-description");
+                $('#pane0').children('img').attr('src', imageSrc);
+                $('#pane0').children('header').find('h3').text(name);
+                $('#pane0').children('header').find('span').text(description);
+
+                // shifts the aritcles to the right
+                $('.pane-container-transition').css('left', '0px');
+
+                setTimeout(function () {
+                    // save contents of pane 0, 1, and 2
+                    // idea here would be to copy the contents of pane 0, 1, and 2 to 1, 2, and 3 respectively.
+                    // then shift the pane-container back to origianl position
+                    var oldPane0 = $('#pane0').html();
+                    var oldPane1 = $('#pane1').html();
+                    var oldPane2 = $('#pane2').html();
+
+                    $('#pane3').html(oldPane2);
+                    $('#pane2').html(oldPane1);
+                    $('#pane1').html(oldPane0);
+
+                    // removing this class prevents the transition.
+                    // this way we can reset the pane container to the original position 
+                    // with the transition.
+                    $('#pane-container').removeClass('pane-container-transition');
+                    $('#pane-container').css('left', '-300px');
+
+                }, 3000);
+
+
+
+            });
+        });
+    </script>
+</body>
+</html>
